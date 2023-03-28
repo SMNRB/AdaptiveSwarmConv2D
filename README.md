@@ -30,7 +30,7 @@ The output feature maps from each swarm are combined to create a comprehensive r
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from morphing_swarm_conv2d import AdaptiveSwarmConv2D
+from adaptiveswarmconv2d import AdaptiveSwarmConv2D
 
 class CustomModel(nn.Module):
     def __init__(self, ...):
@@ -52,7 +52,7 @@ Here is an example of using the AdaptiveSwarmConv2D module in a simple neural ne
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from morphing_swarm_conv2d import AdaptiveSwarmConv2D
+from adaptiveswarmconv2d import AdaptiveSwarmConv2D
 
 class Znn(nn.Module):
     def __init__(self, in_channels=1, num_classes=10, dropout=0.5, num_swarms=3):
