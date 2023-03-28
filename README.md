@@ -26,7 +26,7 @@ The output feature maps from each swarm are combined to create a comprehensive r
 
 ## Usage 
 
-```
+```python
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -48,7 +48,7 @@ class CustomModel(nn.Module):
 
 Here is an example of using the AdaptiveSwarmConv2D module in a simple neural network model:
 
-```
+```python
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
